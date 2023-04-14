@@ -210,7 +210,7 @@ a, a:visited {
 
 /* Main section start */
 .main-section {
-	background-image: url("../assets/background_3.jpg");
+	background-image: url("../../public/assets/background_3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
     height: 110vh;
@@ -649,7 +649,7 @@ figcaption a:hover {
 
 /* Subsection 2 start */
 .subsection-2 {
-	background-image: url("../assets/background.jpg");
+	background-image: url("../../public/assets/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
