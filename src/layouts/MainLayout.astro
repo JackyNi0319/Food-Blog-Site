@@ -1,5 +1,6 @@
 ---
-let {titles} = Astro.props;
+let {title} = Astro.props;
+let {home} = Astro.props;
 let {caseAbout} = Astro.props;
 let {caseFood} = Astro.props;
 let {caseContact} = Astro.props;
@@ -12,7 +13,7 @@ import '@fontsource/roboto-slab'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>{titles}</title>
+    <title>{title}</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
 </head>
@@ -20,7 +21,7 @@ import '@fontsource/roboto-slab'
 <body>
     <div class="spacer"> </div>
     <div class="header">
-        <div class="logo"><a href="index.html">⛩️ JP Cuisine</a></div>
+        <div class="logo"><a href={home}>⛩️ JP Cuisine</a></div>
         <ul id="nav-bar__slider" class="nav-bar__animation selections nav-bar__list">
             <li class="nav-bar__item"><a href={caseAbout}>About</a></li>
             <li class="nav-bar__item"><a href={caseFood}>Food</a></li>
