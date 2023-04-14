@@ -88,14 +88,6 @@ section h3 {
     padding: 1em 0 0 10%;
 }
 
-section h4 {
-    font-family: Roboto Slab;
-    font-size: 1em;
-    font-weight: 600;
-    color: #111;
-    padding: 1em 0 0 10%;
-}
-
 section div p {
     font-family: Roboto Slab;
     font-size: 1em;
@@ -105,18 +97,27 @@ section div p {
     padding: 10px 10% 20px 10%;
 }
 
+section p {
+    font-family: Roboto Slab;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.15em;
+    color: #4b4b4b;
+    padding-left: 10%;
+}
+
 @media only screen and (min-width:1200px) {
     section h3 {
-        padding: 1em 0 0 5%;
-    }
-
-    section h4 {
         padding: 1em 0 0 5%;
     }
 
     section div p {
         padding: 10px 5% 20px 5%;
     }
+
+    section p {
+        padding-left: 5%;
+    };
 }
 
 .case-word-block {
@@ -198,4 +199,8 @@ section .case-word-block {
 
 .list-title {
     padding-bottom: 0;
+}
+
+.list-title:first-of-type {
+    padding-top: 10px;
 }
