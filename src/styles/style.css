@@ -835,3 +835,35 @@ figcaption a:hover {
 	}
 }
 /* Subsection 3 end */
+
+footer {
+	display: block;
+	width: 100%;
+	background-color: rgb(43, 43, 43);
+	height: auto;
+
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 2.5vmin;
+	color: white;
+
+	padding: 1.5rem 0 1.5rem;
+}
+
+.footer-wrapper {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+footer a, footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: rgb(0, 149, 255);
+}
+
+footer p:hover {
+	color: rgb(95, 154, 225);
+}
