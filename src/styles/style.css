@@ -1124,3 +1124,7 @@ section .case-word-block {
 .list-title:first-of-type {
 	padding-top: 10px;
 }
+
+.note-padding {
+	padding-bottom: 20px;
+}
