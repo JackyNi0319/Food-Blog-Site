@@ -2,8 +2,6 @@
 let {title} = Astro.props;
 
 import '../styles/style.css';
-import '../styles/reset_sheet.css';
-import '../styles/case.css';
 import '@fontsource/roboto-slab'
 ---
 
@@ -20,11 +18,5 @@ import '@fontsource/roboto-slab'
 <div class="wrapper">
     <slot></slot>
 </div>
-
-<style>
-    section {
-        font-family: Roboto Slab;
-    }
-</style>
 
 </html>
