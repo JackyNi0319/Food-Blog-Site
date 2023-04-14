@@ -1,0 +1,46 @@
+---
+let {title} = Astro.props;
+
+import '../styles/style.css';
+import '../styles/reset_sheet.css';
+import '@fontsource/roboto-slab'
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title}</title>
+</head>
+
+<body>
+    <div class="spacer"> </div>
+    <div class="header">
+        <div class="logo"><a href="index.html">⛩️ JP Cuisine</a></div>
+        <ul id="nav-bar__slider" class="nav-bar__animation selections nav-bar__list">
+            <li class="nav-bar__item"><a href="index.html#about">About</a></li>
+            <li class="nav-bar__item"><a href="index.html#food">Food</a></li>
+            <li class="nav-bar__item"><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <button hamburger-button class="menu-bar button-style-off">
+            <div class="menu-bar__line1"></div>
+            <div class="menu-bar__line2"></div>
+            <div class="menu-bar__line3"></div>
+        </button>
+    </div>
+
+    <slot></slot>
+
+    <!--Adds animation for menu bar-->
+    <script>
+        import '../scripts/app.js';
+    </script>
+</body>
+</html>
+
+<style is:global>
+    body {
+	    font-family: 'Roboto Slab', serif;
+    }
+</style>

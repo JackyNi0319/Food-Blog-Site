@@ -1,0 +1,31 @@
+---
+let {title} = Astro.props;
+
+import '../styles/style.css';
+import '../styles/reset_sheet.css';
+import '../styles/case.css';
+import '@fontsource/roboto-slab'
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title}</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> -->
+</head>
+
+<section class="case-vid">
+    <div class="wrapper">
+        <slot></slot>
+    </div>
+</section>
+
+<style>
+    section {
+        font-family: Roboto Slab;
+    }
+</style>
+
+</html>

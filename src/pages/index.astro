@@ -1,0 +1,110 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import FooterLayout from '../layouts/FooterLayout.astro';
+---
+
+<MainLayout title="⛩️ Japan Cuisine">
+	<main class="main-section" id="about">    
+        <div class="block-wrap">
+            <div class="block">
+                <div class="left-block">
+                    <div class="hero-main"><h1>Welcome to the world of Japanese cuisine!</h1></div>
+                    <p class="hero-sec">From the delicate flavors of sushi to the rich umami taste of miso soup, Japanese cuisine is a feast for the senses. Each dish is carefully crafted using only the freshest ingredients, and presentation is just as important as taste. With a history spanning centuries, Japanese cuisine has evolved into a culinary experience that is both traditional and innovative.</p>
+                    <button><a href="#food">Explore Now!</a></button>
+                </div>
+                <div class="right-block">
+                    <figure>
+                        <a href="https://unsplash.com/photos/y6Q20FSLq2Y" target="_blank"><img src="/assets/background_5.jpg" alt="restaurant"></a>
+                        <figcaption>
+                            <p class="rb-credit"><a href="https://unsplash.com/photos/y6Q20FSLq2Y" target="_blank">Photographer: Daniel Schludi</a></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="credit-block">
+                <div class="flex-wrapper">
+                    <a href="https://unsplash.com/photos/hwLAI5lRhdM" target="_blank">Photographer: Clay Banks</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="subsection-1" id="food">
+        <h2>Here are some of my favorite Japanese foods!</h2>
+        <div class="card-container">
+            <figure class="item">
+                <a href="onigiri">
+                    <div class="card"><img src="/assets/onigiri.jpg" alt="onigiri"></div>
+                </a>
+                <figcaption>
+                    <p>🍙 Onigiri: the mouthwatering Japanese rice ball snack. The perfect fusion of simplicity and flavor. <a href="onigiri">Read more!</a></p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <a href="misosoup">
+                    <div class="card"><img src="/assets/miso_soup.jpg" alt="miso soup"></div>
+                </a>
+                <figcaption>
+                    <p>🥘 Miso Soup: a nourishing and comforting bowl of goodness that is both delicious and healthy. <a href="misosoup">Read more!</a></p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <a href="sushi">
+                    <div class="card"><img src="/assets/sushi_boat.jpg" alt="sushi"></div>
+                </a>
+                <figcaption>
+                    <p>🍣 Sushi: A bite-sized culinary masterpiece that is both visually stunning and palate-pleasing. <a href="sushi">Read more!</a></p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <a href="ramen">
+                    <div class="card"><img src="/assets/ramen.jpg" alt="ramen"></div>
+                </a>
+                <figcaption>
+                    <p>🍜 Ramen: a flavor explosion in every bowl that will warm your soul and leave you craving for more! <a href="ramen">Read more!</a></p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <a href="gyoza">
+                    <div class="card"><img src="/assets/gyoza.jpg" alt="gyoza"></div>
+                </a>
+                <figcaption>
+                    <p>🥟 Gyoza: a flavor-packed delicacy that will tantalize your taste buds and leave you wanting more. <a href="gyoza">Read more!</a></p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <a href="takoyaki">
+                    <div class="card"><img src="/assets/takoyaki.jpg" alt="takoyaki"></div>
+                </a>
+                <figcaption>
+                    <p>🐙 Takoyaki: an addictive snack that will transport your taste buds straight to the bustling streets of Japan. <a href="takoyaki">Read more!</a></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="subsection-2">
+        <div class="s2-wrapper">
+            <p>"Dumplings over flowers."</p>
+            <p>-Amanda Sun</p>
+        </div>
+        <div class="credit-block">
+            <div class="flex-wrapper">
+                <a href="https://unsplash.com/photos/W9kq9suABY4" target="_blank">Photographer: Daniel Tseng</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="subsection-3">
+        <div class="s3-box">
+            <div class="s3-message"> 
+                <h2>Have any questions?</h2>
+                <p>Feel free to ask me about the meaning of the quote above ("Dumplings over flowers") or anything you want!</p>
+            </div>
+            <button><a href="mailto:yxn190010@utdallas.edu">Contact Me!</a></button>
+        </div>
+    </div>
+
+	<FooterLayout></FooterLayout>
+</MainLayout>
