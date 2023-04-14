@@ -970,6 +970,11 @@ strong {
 	padding: 10px 0 10px 0;
 }
 
+.case-credit {
+	display: block;
+	margin: 0 auto;
+}
+
 .center-img {
 	display: -webkit-box;
 	display: -ms-flexbox;
